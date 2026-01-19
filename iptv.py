@@ -17,20 +17,20 @@ class GZITVHTMLFetcher:
     def __init__(self):
         # 基础配置
         self.config = {
-            'base_url': 'http://10.255.12.10:18121',
-            'user_id': '08570018514933@iptv',
-            'authenticator': '5CDFF3483CC112F01CABF4BEA4B54F9CF1E74D8C3AA5F7A50C7A961F75B6637EBE79C6C1A73658D92E4AF0CF0F7BA6181FF73262E095B3C3147FEE53525432B158C934B5BF3E1CD359E498C956A078FBF8B261C1A97A93DE9387D1C50C0767E6C655F1FC75E2BFD702164F1CBC82BFB5456FD0F248EB6366A401F2D749BAEBD8D1C5A7937D4C309B',
+            'base_url': '认证服务器ip:port,自行抓包',
+            'user_id': 'itv账号',
+            'authenticator': '抓包获取',
         }
 
         # 硬件参数
         self.hardware_params = {
-            'stbinfo': '4C3263999F86300E13818AA92B45A5B166425501B112038B80E3DDC38EC7A1ECB3FC219932988AF1E5490D58DDFBBD443DB8575449D1A4ED0AF5AB8439ACE770AD5532BEC1D42163FDBC1515C5D09CDDC202D2EC39EF8D7CD633C7106D7ABF4FEE4EA3C154598BA9CEF102B947537D5A7B2E28DC26B14CDFB90BF5284DB233A6',
-            'stbtype': 'B860AV3.2-T',
+            'stbinfo': '抓包获取',
+            'stbtype': '抓包获取',
             'drmsupplier': '0',
             'prmid': '',
-            'easip': '10.255.9.22',
+            'easip': '抓包获取',
             'networkid': '1',
-            'stbmac': '18:5e:0b:93:f4:4c'
+            'stbmac': '机顶盒MAC'
         }
 
         self.session = requests.Session()
