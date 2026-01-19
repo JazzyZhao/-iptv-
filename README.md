@@ -1,5 +1,6 @@
 # 贵州电信iptv逆向
 需要自行抓包获取认证信息以及机顶盒相关参数:
+
         self.config = {
             'base_url': '认证服务器ip:port,自行抓包',
             'user_id': 'itv账号',
