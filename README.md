@@ -1,3 +1,6 @@
 # 贵州电信iptv逆向
 Python实现模拟贵州电信iptv机顶盒
-使用此Python脚本可实现一键获取贵州电信iptv最新频道列表
+1.使用此Python脚本可实现一键获取贵州电信iptv最新频道列表
+2.使用To_M3U.py处理第一步产生的final_frameset_builder.html,即可得到同时包含组播,fcc,单播回放地址的m3u文件
+3.搭建rtp2httpd实现fcc快速换台支持
+4.修改m3u中的代理地址,最后完美播放
