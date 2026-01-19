@@ -1,2 +1,3 @@
-# -iptv-
+# 贵州电信iptv逆向
 Python实现模拟贵州电信iptv机顶盒
+使用此Python脚本可实现一键获取贵州电信iptv最新频道列表
